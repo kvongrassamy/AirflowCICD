@@ -1,0 +1,1234 @@
+[2022-05-14 01:49:38,884] {processor.py:153} INFO - Started process (PID=107) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 01:49:38,885] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 01:49:38,887] {logging_mixin.py:115} INFO - [2022-05-14 01:49:38,887] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 01:49:38,958] {logging_mixin.py:115} INFO - [2022-05-14 01:49:38,951] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 01:49:38,960] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 01:49:39,013] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.135 seconds
+[2022-05-14 01:50:12,682] {processor.py:153} INFO - Started process (PID=170) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 01:50:12,683] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 01:50:12,684] {logging_mixin.py:115} INFO - [2022-05-14 01:50:12,684] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 01:50:12,710] {logging_mixin.py:115} INFO - [2022-05-14 01:50:12,704] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 01:50:12,712] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 01:50:12,759] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.081 seconds
+[2022-05-14 01:59:36,091] {processor.py:153} INFO - Started process (PID=42) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 01:59:36,093] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 01:59:36,097] {logging_mixin.py:115} INFO - [2022-05-14 01:59:36,096] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 01:59:36,144] {logging_mixin.py:115} INFO - [2022-05-14 01:59:36,129] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 01:59:36,147] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 01:59:36,219] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.135 seconds
+[2022-05-14 02:02:16,094] {processor.py:153} INFO - Started process (PID=53) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:02:16,104] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:02:16,114] {logging_mixin.py:115} INFO - [2022-05-14 02:02:16,114] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:02:16,195] {logging_mixin.py:115} INFO - [2022-05-14 02:02:16,176] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 02:02:16,200] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:02:16,446] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.407 seconds
+[2022-05-14 02:07:14,751] {processor.py:153} INFO - Started process (PID=45) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:07:14,754] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:07:14,757] {logging_mixin.py:115} INFO - [2022-05-14 02:07:14,757] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:07:14,780] {logging_mixin.py:115} INFO - [2022-05-14 02:07:14,773] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 02:07:14,784] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:07:14,838] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.092 seconds
+[2022-05-14 02:07:44,915] {processor.py:153} INFO - Started process (PID=79) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:07:44,923] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:07:44,927] {logging_mixin.py:115} INFO - [2022-05-14 02:07:44,927] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:07:44,971] {logging_mixin.py:115} INFO - [2022-05-14 02:07:44,958] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 02:07:44,973] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:07:45,013] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.113 seconds
+[2022-05-14 02:08:15,071] {processor.py:153} INFO - Started process (PID=103) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:08:15,074] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:08:15,077] {logging_mixin.py:115} INFO - [2022-05-14 02:08:15,076] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:08:15,114] {logging_mixin.py:115} INFO - [2022-05-14 02:08:15,107] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 02:08:15,120] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:08:15,183] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.119 seconds
+[2022-05-14 02:08:45,297] {processor.py:153} INFO - Started process (PID=135) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:08:45,299] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:08:45,300] {logging_mixin.py:115} INFO - [2022-05-14 02:08:45,300] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:08:45,313] {logging_mixin.py:115} INFO - [2022-05-14 02:08:45,310] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 02:08:45,314] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:08:45,350] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.057 seconds
+[2022-05-14 02:09:15,407] {processor.py:153} INFO - Started process (PID=155) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:09:15,409] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:09:15,412] {logging_mixin.py:115} INFO - [2022-05-14 02:09:15,412] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:09:15,438] {logging_mixin.py:115} INFO - [2022-05-14 02:09:15,432] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 02:09:15,440] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:09:15,496] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.097 seconds
+[2022-05-14 02:09:45,601] {processor.py:153} INFO - Started process (PID=187) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:09:45,603] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:09:45,604] {logging_mixin.py:115} INFO - [2022-05-14 02:09:45,604] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:09:45,622] {logging_mixin.py:115} INFO - [2022-05-14 02:09:45,616] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 02:09:45,625] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:09:45,679] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.083 seconds
+[2022-05-14 02:10:15,838] {processor.py:153} INFO - Started process (PID=209) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:10:15,845] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:10:15,853] {logging_mixin.py:115} INFO - [2022-05-14 02:10:15,852] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:10:15,890] {logging_mixin.py:115} INFO - [2022-05-14 02:10:15,884] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 02:10:15,891] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:10:15,926] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.103 seconds
+[2022-05-14 02:10:46,027] {processor.py:153} INFO - Started process (PID=241) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:10:46,029] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:10:46,030] {logging_mixin.py:115} INFO - [2022-05-14 02:10:46,030] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:10:46,043] {logging_mixin.py:115} INFO - [2022-05-14 02:10:46,040] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 02:10:46,053] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:10:46,078] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.055 seconds
+[2022-05-14 02:11:16,133] {processor.py:153} INFO - Started process (PID=263) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:11:16,134] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:11:16,135] {logging_mixin.py:115} INFO - [2022-05-14 02:11:16,135] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:11:16,148] {logging_mixin.py:115} INFO - [2022-05-14 02:11:16,144] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 02:11:16,149] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:11:16,183] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.053 seconds
+[2022-05-14 02:11:46,329] {processor.py:153} INFO - Started process (PID=296) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:11:46,335] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:11:46,339] {logging_mixin.py:115} INFO - [2022-05-14 02:11:46,338] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:11:46,365] {logging_mixin.py:115} INFO - [2022-05-14 02:11:46,358] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 02:11:46,367] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:11:46,435] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.125 seconds
+[2022-05-14 02:12:16,582] {processor.py:153} INFO - Started process (PID=318) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:12:16,583] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:12:16,585] {logging_mixin.py:115} INFO - [2022-05-14 02:12:16,585] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:12:16,602] {logging_mixin.py:115} INFO - [2022-05-14 02:12:16,598] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 02:12:16,604] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:12:16,672] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.096 seconds
+[2022-05-14 02:12:46,766] {processor.py:153} INFO - Started process (PID=350) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:12:46,767] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:12:46,768] {logging_mixin.py:115} INFO - [2022-05-14 02:12:46,768] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:12:46,782] {logging_mixin.py:115} INFO - [2022-05-14 02:12:46,779] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 02:12:46,783] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:12:46,818] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.056 seconds
+[2022-05-14 02:13:16,923] {processor.py:153} INFO - Started process (PID=372) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:13:16,925] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:13:16,928] {logging_mixin.py:115} INFO - [2022-05-14 02:13:16,928] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:13:16,947] {logging_mixin.py:115} INFO - [2022-05-14 02:13:16,942] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 02:13:16,948] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:13:16,990] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.072 seconds
+[2022-05-14 02:13:47,082] {processor.py:153} INFO - Started process (PID=405) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:13:47,084] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:13:47,085] {logging_mixin.py:115} INFO - [2022-05-14 02:13:47,085] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:13:47,098] {logging_mixin.py:115} INFO - [2022-05-14 02:13:47,095] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 02:13:47,099] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:13:47,138] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.060 seconds
+[2022-05-14 02:14:17,177] {processor.py:153} INFO - Started process (PID=425) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:14:17,179] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:14:17,180] {logging_mixin.py:115} INFO - [2022-05-14 02:14:17,180] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:14:17,198] {logging_mixin.py:115} INFO - [2022-05-14 02:14:17,194] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 02:14:17,199] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:14:17,246] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.073 seconds
+[2022-05-14 02:14:47,323] {processor.py:153} INFO - Started process (PID=459) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:14:47,325] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:14:47,326] {logging_mixin.py:115} INFO - [2022-05-14 02:14:47,326] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:14:47,339] {logging_mixin.py:115} INFO - [2022-05-14 02:14:47,336] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 02:14:47,341] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:14:47,368] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.048 seconds
+[2022-05-14 02:15:17,445] {processor.py:153} INFO - Started process (PID=479) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:15:17,447] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:15:17,449] {logging_mixin.py:115} INFO - [2022-05-14 02:15:17,449] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:15:17,464] {logging_mixin.py:115} INFO - [2022-05-14 02:15:17,461] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 02:15:17,465] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:15:17,507] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.066 seconds
+[2022-05-14 02:15:47,604] {processor.py:153} INFO - Started process (PID=512) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:15:47,605] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:15:47,607] {logging_mixin.py:115} INFO - [2022-05-14 02:15:47,607] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:15:47,625] {logging_mixin.py:115} INFO - [2022-05-14 02:15:47,620] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 02:15:47,626] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:15:47,660] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.060 seconds
+[2022-05-14 02:16:17,821] {processor.py:153} INFO - Started process (PID=534) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:16:17,827] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:16:17,833] {logging_mixin.py:115} INFO - [2022-05-14 02:16:17,832] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:16:17,887] {logging_mixin.py:115} INFO - [2022-05-14 02:16:17,871] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 02:16:17,894] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:16:17,955] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.149 seconds
+[2022-05-14 02:16:48,073] {processor.py:153} INFO - Started process (PID=568) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:16:48,074] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:16:48,076] {logging_mixin.py:115} INFO - [2022-05-14 02:16:48,076] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:16:48,092] {logging_mixin.py:115} INFO - [2022-05-14 02:16:48,088] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 02:16:48,093] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:16:48,123] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.054 seconds
+[2022-05-14 02:17:18,218] {processor.py:153} INFO - Started process (PID=591) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:17:18,220] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:17:18,221] {logging_mixin.py:115} INFO - [2022-05-14 02:17:18,221] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:17:18,236] {logging_mixin.py:115} INFO - [2022-05-14 02:17:18,232] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 02:17:18,237] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:17:18,281] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.068 seconds
+[2022-05-14 02:17:48,507] {processor.py:153} INFO - Started process (PID=620) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:17:48,520] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:17:48,523] {logging_mixin.py:115} INFO - [2022-05-14 02:17:48,523] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:17:48,562] {logging_mixin.py:115} INFO - [2022-05-14 02:17:48,551] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 02:17:48,566] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:17:48,660] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.174 seconds
+[2022-05-14 02:37:46,894] {processor.py:153} INFO - Started process (PID=42) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:37:46,895] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:37:46,897] {logging_mixin.py:115} INFO - [2022-05-14 02:37:46,897] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:37:46,982] {logging_mixin.py:115} INFO - [2022-05-14 02:37:46,978] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 87, in <module>
+    refresh()
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 76, in refresh
+    if not Git.refresh(path=path):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/cmd.py", line 341, in refresh
+    raise ImportError(err)
+ImportError: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 89, in <module>
+    raise ImportError('Failed to initialize: {0}'.format(exc)) from exc
+ImportError: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2022-05-14 02:37:46,984] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:37:47,022] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.132 seconds
+[2022-05-14 02:38:17,140] {processor.py:153} INFO - Started process (PID=80) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:38:17,143] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:38:17,145] {logging_mixin.py:115} INFO - [2022-05-14 02:38:17,145] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:38:17,335] {logging_mixin.py:115} INFO - [2022-05-14 02:38:17,323] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 87, in <module>
+    refresh()
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 76, in refresh
+    if not Git.refresh(path=path):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/cmd.py", line 341, in refresh
+    raise ImportError(err)
+ImportError: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 89, in <module>
+    raise ImportError('Failed to initialize: {0}'.format(exc)) from exc
+ImportError: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2022-05-14 02:38:17,337] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:38:17,378] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.243 seconds
+[2022-05-14 02:38:47,526] {processor.py:153} INFO - Started process (PID=103) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:38:47,528] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:38:47,530] {logging_mixin.py:115} INFO - [2022-05-14 02:38:47,529] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:38:47,641] {logging_mixin.py:115} INFO - [2022-05-14 02:38:47,637] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 87, in <module>
+    refresh()
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 76, in refresh
+    if not Git.refresh(path=path):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/cmd.py", line 341, in refresh
+    raise ImportError(err)
+ImportError: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 89, in <module>
+    raise ImportError('Failed to initialize: {0}'.format(exc)) from exc
+ImportError: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2022-05-14 02:38:47,642] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:38:47,667] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.149 seconds
+[2022-05-14 02:39:17,759] {processor.py:153} INFO - Started process (PID=134) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:39:17,760] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:39:17,762] {logging_mixin.py:115} INFO - [2022-05-14 02:39:17,762] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:39:17,868] {logging_mixin.py:115} INFO - [2022-05-14 02:39:17,855] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 87, in <module>
+    refresh()
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 76, in refresh
+    if not Git.refresh(path=path):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/cmd.py", line 341, in refresh
+    raise ImportError(err)
+ImportError: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 89, in <module>
+    raise ImportError('Failed to initialize: {0}'.format(exc)) from exc
+ImportError: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2022-05-14 02:39:17,879] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:39:17,931] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.177 seconds
+[2022-05-14 02:39:48,075] {processor.py:153} INFO - Started process (PID=158) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:39:48,076] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:39:48,077] {logging_mixin.py:115} INFO - [2022-05-14 02:39:48,077] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:39:48,153] {logging_mixin.py:115} INFO - [2022-05-14 02:39:48,149] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 87, in <module>
+    refresh()
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 76, in refresh
+    if not Git.refresh(path=path):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/cmd.py", line 341, in refresh
+    raise ImportError(err)
+ImportError: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 89, in <module>
+    raise ImportError('Failed to initialize: {0}'.format(exc)) from exc
+ImportError: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2022-05-14 02:39:48,155] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:39:48,183] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.113 seconds
+[2022-05-14 02:40:18,298] {processor.py:153} INFO - Started process (PID=191) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:40:18,300] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:40:18,302] {logging_mixin.py:115} INFO - [2022-05-14 02:40:18,302] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:40:18,473] {logging_mixin.py:115} INFO - [2022-05-14 02:40:18,469] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 87, in <module>
+    refresh()
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 76, in refresh
+    if not Git.refresh(path=path):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/cmd.py", line 341, in refresh
+    raise ImportError(err)
+ImportError: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 89, in <module>
+    raise ImportError('Failed to initialize: {0}'.format(exc)) from exc
+ImportError: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2022-05-14 02:40:18,475] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:40:18,511] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.219 seconds
+[2022-05-14 02:40:48,626] {processor.py:153} INFO - Started process (PID=214) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:40:48,628] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:40:48,630] {logging_mixin.py:115} INFO - [2022-05-14 02:40:48,630] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:40:48,777] {logging_mixin.py:115} INFO - [2022-05-14 02:40:48,763] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 87, in <module>
+    refresh()
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 76, in refresh
+    if not Git.refresh(path=path):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/cmd.py", line 341, in refresh
+    raise ImportError(err)
+ImportError: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 89, in <module>
+    raise ImportError('Failed to initialize: {0}'.format(exc)) from exc
+ImportError: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2022-05-14 02:40:48,781] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:40:48,836] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.220 seconds
+[2022-05-14 02:41:18,949] {processor.py:153} INFO - Started process (PID=248) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:41:18,951] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:41:18,952] {logging_mixin.py:115} INFO - [2022-05-14 02:41:18,952] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:41:19,041] {logging_mixin.py:115} INFO - [2022-05-14 02:41:19,037] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 87, in <module>
+    refresh()
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 76, in refresh
+    if not Git.refresh(path=path):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/cmd.py", line 341, in refresh
+    raise ImportError(err)
+ImportError: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 89, in <module>
+    raise ImportError('Failed to initialize: {0}'.format(exc)) from exc
+ImportError: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2022-05-14 02:41:19,043] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:41:19,077] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.132 seconds
+[2022-05-14 02:41:49,213] {processor.py:153} INFO - Started process (PID=273) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:41:49,215] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:41:49,216] {logging_mixin.py:115} INFO - [2022-05-14 02:41:49,216] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:41:49,288] {logging_mixin.py:115} INFO - [2022-05-14 02:41:49,284] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 87, in <module>
+    refresh()
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 76, in refresh
+    if not Git.refresh(path=path):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/cmd.py", line 341, in refresh
+    raise ImportError(err)
+ImportError: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 89, in <module>
+    raise ImportError('Failed to initialize: {0}'.format(exc)) from exc
+ImportError: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2022-05-14 02:41:49,289] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:41:49,324] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.118 seconds
+[2022-05-14 02:42:19,433] {processor.py:153} INFO - Started process (PID=305) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:42:19,452] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:42:19,454] {logging_mixin.py:115} INFO - [2022-05-14 02:42:19,454] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:42:19,595] {logging_mixin.py:115} INFO - [2022-05-14 02:42:19,590] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 87, in <module>
+    refresh()
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 76, in refresh
+    if not Git.refresh(path=path):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/cmd.py", line 341, in refresh
+    raise ImportError(err)
+ImportError: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 89, in <module>
+    raise ImportError('Failed to initialize: {0}'.format(exc)) from exc
+ImportError: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2022-05-14 02:42:19,598] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:42:19,653] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.224 seconds
+[2022-05-14 02:42:49,755] {processor.py:153} INFO - Started process (PID=329) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:42:49,757] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:42:49,759] {logging_mixin.py:115} INFO - [2022-05-14 02:42:49,758] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:42:49,898] {logging_mixin.py:115} INFO - [2022-05-14 02:42:49,893] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 87, in <module>
+    refresh()
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 76, in refresh
+    if not Git.refresh(path=path):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/cmd.py", line 341, in refresh
+    raise ImportError(err)
+ImportError: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 89, in <module>
+    raise ImportError('Failed to initialize: {0}'.format(exc)) from exc
+ImportError: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2022-05-14 02:42:49,901] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:42:49,934] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.186 seconds
+[2022-05-14 02:43:20,041] {processor.py:153} INFO - Started process (PID=360) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:43:20,042] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:43:20,044] {logging_mixin.py:115} INFO - [2022-05-14 02:43:20,044] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:43:20,123] {logging_mixin.py:115} INFO - [2022-05-14 02:43:20,118] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 87, in <module>
+    refresh()
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 76, in refresh
+    if not Git.refresh(path=path):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/cmd.py", line 341, in refresh
+    raise ImportError(err)
+ImportError: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 89, in <module>
+    raise ImportError('Failed to initialize: {0}'.format(exc)) from exc
+ImportError: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2022-05-14 02:43:20,126] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:43:20,154] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.117 seconds
+[2022-05-14 02:43:50,308] {processor.py:153} INFO - Started process (PID=394) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:43:50,312] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:43:50,319] {logging_mixin.py:115} INFO - [2022-05-14 02:43:50,318] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:43:50,429] {logging_mixin.py:115} INFO - [2022-05-14 02:43:50,425] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 87, in <module>
+    refresh()
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 76, in refresh
+    if not Git.refresh(path=path):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/cmd.py", line 341, in refresh
+    raise ImportError(err)
+ImportError: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 89, in <module>
+    raise ImportError('Failed to initialize: {0}'.format(exc)) from exc
+ImportError: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2022-05-14 02:43:50,430] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:43:50,456] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.157 seconds
+[2022-05-14 02:44:20,554] {processor.py:153} INFO - Started process (PID=417) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:44:20,556] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:44:20,558] {logging_mixin.py:115} INFO - [2022-05-14 02:44:20,557] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:44:20,641] {logging_mixin.py:115} INFO - [2022-05-14 02:44:20,637] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 87, in <module>
+    refresh()
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 76, in refresh
+    if not Git.refresh(path=path):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/cmd.py", line 341, in refresh
+    raise ImportError(err)
+ImportError: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 89, in <module>
+    raise ImportError('Failed to initialize: {0}'.format(exc)) from exc
+ImportError: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2022-05-14 02:44:20,642] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:44:20,672] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.121 seconds
+[2022-05-14 02:44:50,773] {processor.py:153} INFO - Started process (PID=452) to work on /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:44:50,775] {processor.py:641} INFO - Processing file /opt/airflow/dags/check_dag_pull.py for tasks to queue
+[2022-05-14 02:44:50,777] {logging_mixin.py:115} INFO - [2022-05-14 02:44:50,776] {dagbag.py:507} INFO - Filling up the DagBag from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:44:50,879] {logging_mixin.py:115} INFO - [2022-05-14 02:44:50,875] {dagbag.py:320} ERROR - Failed to import: /opt/airflow/dags/check_dag_pull.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 87, in <module>
+    refresh()
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 76, in refresh
+    if not Git.refresh(path=path):
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/cmd.py", line 341, in refresh
+    raise ImportError(err)
+ImportError: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/models/dagbag.py", line 317, in parse
+    loader.exec_module(new_module)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/dags/check_dag_pull.py", line 1, in <module>
+    import git
+  File "/home/airflow/.local/lib/python3.7/site-packages/git/__init__.py", line 89, in <module>
+    raise ImportError('Failed to initialize: {0}'.format(exc)) from exc
+ImportError: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh()
+
+All git commands will error until this is rectified.
+
+This initial warning can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|none|n|0: for no warning or exception
+    - warn|w|warning|1: for a printed warning
+    - error|e|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+[2022-05-14 02:44:50,881] {processor.py:653} WARNING - No viable dags retrieved from /opt/airflow/dags/check_dag_pull.py
+[2022-05-14 02:44:50,910] {processor.py:161} INFO - Processing /opt/airflow/dags/check_dag_pull.py took 0.142 seconds

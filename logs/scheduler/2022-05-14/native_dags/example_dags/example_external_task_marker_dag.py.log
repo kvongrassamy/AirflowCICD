@@ -1,0 +1,96 @@
+[2022-05-14 01:49:32,921] {processor.py:153} INFO - Started process (PID=88) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-05-14 01:49:32,922] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-05-14 01:49:32,925] {logging_mixin.py:115} INFO - [2022-05-14 01:49:32,925] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-05-14 01:49:32,946] {processor.py:651} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-05-14 01:49:33,115] {logging_mixin.py:115} INFO - [2022-05-14 01:49:33,114] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_external_task_marker_parent
+[2022-05-14 01:49:33,180] {logging_mixin.py:115} INFO - [2022-05-14 01:49:33,180] {manager.py:508} INFO - Created Permission View: can read on DAG:example_external_task_marker_parent
+[2022-05-14 01:49:33,211] {logging_mixin.py:115} INFO - [2022-05-14 01:49:33,211] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_external_task_marker_parent
+[2022-05-14 01:49:33,430] {logging_mixin.py:115} INFO - [2022-05-14 01:49:33,425] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/job_builder_plugin.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/job_builder_plugin.py", line 2, in <module>
+    from airflow.plugins.job_builder.jobs.views.testdagload import testview
+ModuleNotFoundError: No module named 'airflow.plugins'
+[2022-05-14 01:49:33,528] {logging_mixin.py:115} INFO - [2022-05-14 01:49:33,523] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/jobs/dag_writer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/jobs/dag_writer.py", line 6, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 01:49:33,568] {logging_mixin.py:115} INFO - [2022-05-14 01:49:33,565] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/jobs/models.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/jobs/models.py", line 2, in <module>
+    from airflow.plugins.job_builder.jobs.dag_writer import DAGWriter
+ModuleNotFoundError: No module named 'airflow.plugins'
+[2022-05-14 01:49:33,689] {logging_mixin.py:115} INFO - [2022-05-14 01:49:33,686] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/jobs/views/testdagload.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/jobs/views/testdagload.py", line 4, in <module>
+    from airflow.plugins.job_builder.jobs.views.job import JobView
+ModuleNotFoundError: No module named 'airflow.plugins'
+[2022-05-14 01:49:33,809] {logging_mixin.py:115} INFO - [2022-05-14 01:49:33,809] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_external_task_marker_child
+[2022-05-14 01:49:33,824] {logging_mixin.py:115} INFO - [2022-05-14 01:49:33,824] {manager.py:508} INFO - Created Permission View: can read on DAG:example_external_task_marker_child
+[2022-05-14 01:49:33,841] {logging_mixin.py:115} INFO - [2022-05-14 01:49:33,841] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_external_task_marker_child
+[2022-05-14 01:49:33,842] {logging_mixin.py:115} INFO - [2022-05-14 01:49:33,842] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-05-14 01:49:33,859] {logging_mixin.py:115} INFO - [2022-05-14 01:49:33,859] {dag.py:2390} INFO - Creating ORM DAG for example_external_task_marker_parent
+[2022-05-14 01:49:33,861] {logging_mixin.py:115} INFO - [2022-05-14 01:49:33,860] {dag.py:2390} INFO - Creating ORM DAG for example_external_task_marker_child
+[2022-05-14 01:49:34,025] {logging_mixin.py:115} INFO - [2022-05-14 01:49:34,025] {dag.py:2919} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2022-05-14 01:49:34,028] {logging_mixin.py:115} INFO - [2022-05-14 01:49:34,028] {dag.py:2919} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2022-05-14 01:49:34,066] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 1.152 seconds
+[2022-05-14 01:50:06,357] {processor.py:153} INFO - Started process (PID=149) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-05-14 01:50:06,360] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py for tasks to queue
+[2022-05-14 01:50:06,362] {logging_mixin.py:115} INFO - [2022-05-14 01:50:06,362] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-05-14 01:50:06,402] {processor.py:651} INFO - DAG(s) dict_keys(['example_external_task_marker_parent', 'example_external_task_marker_child']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py
+[2022-05-14 01:50:06,527] {logging_mixin.py:115} INFO - [2022-05-14 01:50:06,521] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/job_builder_plugin.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/job_builder_plugin.py", line 2, in <module>
+    from airflow.plugins.job_builder.jobs.views.testdagload import testview
+ModuleNotFoundError: No module named 'airflow.plugins'
+[2022-05-14 01:50:06,576] {logging_mixin.py:115} INFO - [2022-05-14 01:50:06,569] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/jobs/dag_writer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/jobs/dag_writer.py", line 6, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 01:50:06,596] {logging_mixin.py:115} INFO - [2022-05-14 01:50:06,589] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/jobs/models.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/jobs/models.py", line 2, in <module>
+    from airflow.plugins.job_builder.jobs.dag_writer import DAGWriter
+ModuleNotFoundError: No module named 'airflow.plugins'
+[2022-05-14 01:50:06,676] {logging_mixin.py:115} INFO - [2022-05-14 01:50:06,668] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/jobs/views/testdagload.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/jobs/views/testdagload.py", line 4, in <module>
+    from airflow.plugins.job_builder.jobs.views.job import JobView
+ModuleNotFoundError: No module named 'airflow.plugins'
+[2022-05-14 01:50:06,871] {logging_mixin.py:115} INFO - [2022-05-14 01:50:06,871] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-05-14 01:50:06,921] {logging_mixin.py:115} INFO - [2022-05-14 01:50:06,921] {dag.py:2919} INFO - Setting next_dagrun for example_external_task_marker_child to None, run_after=None
+[2022-05-14 01:50:06,922] {logging_mixin.py:115} INFO - [2022-05-14 01:50:06,922] {dag.py:2919} INFO - Setting next_dagrun for example_external_task_marker_parent to None, run_after=None
+[2022-05-14 01:50:06,974] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_external_task_marker_dag.py took 0.623 seconds

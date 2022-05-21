@@ -1,0 +1,6 @@
+apache-airflow-providers-microsoft-mssql
+Flask-Admin
+shelljob
+GitPython
+celery
+apache-airflow[celery]

@@ -1,0 +1,102 @@
+[2022-05-14 01:49:35,917] {processor.py:153} INFO - Started process (PID=98) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-05-14 01:49:35,918] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-05-14 01:49:35,920] {logging_mixin.py:115} INFO - [2022-05-14 01:49:35,919] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-05-14 01:49:36,000] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-05-14 01:49:36,062] {logging_mixin.py:115} INFO - [2022-05-14 01:49:36,059] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/job_builder_plugin.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/job_builder_plugin.py", line 2, in <module>
+    from airflow.plugins.job_builder.jobs.views.testdagload import testview
+ModuleNotFoundError: No module named 'airflow.plugins'
+[2022-05-14 01:49:36,096] {logging_mixin.py:115} INFO - [2022-05-14 01:49:36,093] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/jobs/dag_writer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/jobs/dag_writer.py", line 6, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 01:49:36,106] {logging_mixin.py:115} INFO - [2022-05-14 01:49:36,103] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/jobs/models.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/jobs/models.py", line 2, in <module>
+    from airflow.plugins.job_builder.jobs.dag_writer import DAGWriter
+ModuleNotFoundError: No module named 'airflow.plugins'
+[2022-05-14 01:49:36,148] {logging_mixin.py:115} INFO - [2022-05-14 01:49:36,145] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/jobs/views/testdagload.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/jobs/views/testdagload.py", line 4, in <module>
+    from airflow.plugins.job_builder.jobs.views.job import JobView
+ModuleNotFoundError: No module named 'airflow.plugins'
+[2022-05-14 01:49:36,317] {logging_mixin.py:115} INFO - [2022-05-14 01:49:36,317] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_subdag_operator
+[2022-05-14 01:49:36,341] {logging_mixin.py:115} INFO - [2022-05-14 01:49:36,341] {manager.py:508} INFO - Created Permission View: can read on DAG:example_subdag_operator
+[2022-05-14 01:49:36,361] {logging_mixin.py:115} INFO - [2022-05-14 01:49:36,361] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_subdag_operator
+[2022-05-14 01:49:36,362] {logging_mixin.py:115} INFO - [2022-05-14 01:49:36,362] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-05-14 01:49:36,386] {logging_mixin.py:115} INFO - [2022-05-14 01:49:36,385] {dag.py:2390} INFO - Creating ORM DAG for example_subdag_operator
+[2022-05-14 01:49:36,388] {logging_mixin.py:115} INFO - [2022-05-14 01:49:36,388] {dag.py:2390} INFO - Creating ORM DAG for example_subdag_operator.section-1
+[2022-05-14 01:49:36,391] {logging_mixin.py:115} INFO - [2022-05-14 01:49:36,391] {dag.py:2390} INFO - Creating ORM DAG for example_subdag_operator.section-2
+[2022-05-14 01:49:36,611] {logging_mixin.py:115} INFO - [2022-05-14 01:49:36,611] {dag.py:2919} INFO - Setting next_dagrun for example_subdag_operator to 2022-05-12T00:00:00+00:00, run_after=2022-05-12T00:00:00+00:00
+[2022-05-14 01:49:36,613] {logging_mixin.py:115} INFO - [2022-05-14 01:49:36,613] {dag.py:2919} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-05-14 01:49:36,615] {logging_mixin.py:115} INFO - [2022-05-14 01:49:36,615] {dag.py:2919} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-05-14 01:49:36,643] {logging_mixin.py:115} INFO - [2022-05-14 01:49:36,643] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-05-14 01:49:36,658] {logging_mixin.py:115} INFO - [2022-05-14 01:49:36,657] {dag.py:2919} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-05-14 01:49:36,659] {logging_mixin.py:115} INFO - [2022-05-14 01:49:36,659] {dag.py:2919} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-05-14 01:49:36,690] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.779 seconds
+[2022-05-14 01:50:11,509] {processor.py:153} INFO - Started process (PID=161) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-05-14 01:50:11,511] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py for tasks to queue
+[2022-05-14 01:50:11,512] {logging_mixin.py:115} INFO - [2022-05-14 01:50:11,512] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-05-14 01:50:11,578] {processor.py:651} INFO - DAG(s) dict_keys(['example_subdag_operator.section-1', 'example_subdag_operator.section-2', 'example_subdag_operator']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py
+[2022-05-14 01:50:11,675] {logging_mixin.py:115} INFO - [2022-05-14 01:50:11,667] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/job_builder_plugin.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/job_builder_plugin.py", line 2, in <module>
+    from airflow.plugins.job_builder.jobs.views.testdagload import testview
+ModuleNotFoundError: No module named 'airflow.plugins'
+[2022-05-14 01:50:11,716] {logging_mixin.py:115} INFO - [2022-05-14 01:50:11,712] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/jobs/dag_writer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/jobs/dag_writer.py", line 6, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 01:50:11,729] {logging_mixin.py:115} INFO - [2022-05-14 01:50:11,726] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/jobs/models.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/jobs/models.py", line 2, in <module>
+    from airflow.plugins.job_builder.jobs.dag_writer import DAGWriter
+ModuleNotFoundError: No module named 'airflow.plugins'
+[2022-05-14 01:50:11,766] {logging_mixin.py:115} INFO - [2022-05-14 01:50:11,764] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/jobs/views/testdagload.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/jobs/views/testdagload.py", line 4, in <module>
+    from airflow.plugins.job_builder.jobs.views.job import JobView
+ModuleNotFoundError: No module named 'airflow.plugins'
+[2022-05-14 01:50:11,958] {logging_mixin.py:115} INFO - [2022-05-14 01:50:11,958] {dag.py:2371} INFO - Sync 3 DAGs
+[2022-05-14 01:50:11,997] {logging_mixin.py:115} INFO - [2022-05-14 01:50:11,997] {dag.py:2919} INFO - Setting next_dagrun for example_subdag_operator to 2022-05-12T00:00:00+00:00, run_after=2022-05-12T00:00:00+00:00
+[2022-05-14 01:50:11,999] {logging_mixin.py:115} INFO - [2022-05-14 01:50:11,998] {dag.py:2919} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-05-14 01:50:12,000] {logging_mixin.py:115} INFO - [2022-05-14 01:50:12,000] {dag.py:2919} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-05-14 01:50:12,012] {logging_mixin.py:115} INFO - [2022-05-14 01:50:12,012] {dag.py:2371} INFO - Sync 2 DAGs
+[2022-05-14 01:50:12,022] {logging_mixin.py:115} INFO - [2022-05-14 01:50:12,022] {dag.py:2919} INFO - Setting next_dagrun for example_subdag_operator.section-1 to None, run_after=None
+[2022-05-14 01:50:12,023] {logging_mixin.py:115} INFO - [2022-05-14 01:50:12,023] {dag.py:2919} INFO - Setting next_dagrun for example_subdag_operator.section-2 to None, run_after=None
+[2022-05-14 01:50:12,041] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_subdag_operator.py took 0.537 seconds

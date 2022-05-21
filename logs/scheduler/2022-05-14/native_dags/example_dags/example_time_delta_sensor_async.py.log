@@ -1,0 +1,90 @@
+[2022-05-14 01:49:38,165] {processor.py:153} INFO - Started process (PID=104) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-05-14 01:49:38,167] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2022-05-14 01:49:38,169] {logging_mixin.py:115} INFO - [2022-05-14 01:49:38,168] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-05-14 01:49:38,194] {processor.py:651} INFO - DAG(s) dict_keys(['example_time_delta_sensor_async']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-05-14 01:49:38,261] {logging_mixin.py:115} INFO - [2022-05-14 01:49:38,256] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/job_builder_plugin.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/job_builder_plugin.py", line 2, in <module>
+    from airflow.plugins.job_builder.jobs.views.testdagload import testview
+ModuleNotFoundError: No module named 'airflow.plugins'
+[2022-05-14 01:49:38,285] {logging_mixin.py:115} INFO - [2022-05-14 01:49:38,281] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/jobs/dag_writer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/jobs/dag_writer.py", line 6, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 01:49:38,295] {logging_mixin.py:115} INFO - [2022-05-14 01:49:38,292] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/jobs/models.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/jobs/models.py", line 2, in <module>
+    from airflow.plugins.job_builder.jobs.dag_writer import DAGWriter
+ModuleNotFoundError: No module named 'airflow.plugins'
+[2022-05-14 01:49:38,353] {logging_mixin.py:115} INFO - [2022-05-14 01:49:38,347] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/jobs/views/testdagload.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/jobs/views/testdagload.py", line 4, in <module>
+    from airflow.plugins.job_builder.jobs.views.job import JobView
+ModuleNotFoundError: No module named 'airflow.plugins'
+[2022-05-14 01:49:38,564] {logging_mixin.py:115} INFO - [2022-05-14 01:49:38,564] {manager.py:508} INFO - Created Permission View: can delete on DAG:example_time_delta_sensor_async
+[2022-05-14 01:49:38,599] {logging_mixin.py:115} INFO - [2022-05-14 01:49:38,599] {manager.py:508} INFO - Created Permission View: can read on DAG:example_time_delta_sensor_async
+[2022-05-14 01:49:38,629] {logging_mixin.py:115} INFO - [2022-05-14 01:49:38,629] {manager.py:508} INFO - Created Permission View: can edit on DAG:example_time_delta_sensor_async
+[2022-05-14 01:49:38,630] {logging_mixin.py:115} INFO - [2022-05-14 01:49:38,630] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-14 01:49:38,653] {logging_mixin.py:115} INFO - [2022-05-14 01:49:38,653] {dag.py:2390} INFO - Creating ORM DAG for example_time_delta_sensor_async
+[2022-05-14 01:49:38,909] {logging_mixin.py:115} INFO - [2022-05-14 01:49:38,909] {dag.py:2919} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2022-05-14 01:49:38,948] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.788 seconds
+[2022-05-14 01:50:12,396] {processor.py:153} INFO - Started process (PID=167) to work on /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-05-14 01:50:12,398] {processor.py:641} INFO - Processing file /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_time_delta_sensor_async.py for tasks to queue
+[2022-05-14 01:50:12,399] {logging_mixin.py:115} INFO - [2022-05-14 01:50:12,399] {dagbag.py:507} INFO - Filling up the DagBag from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-05-14 01:50:12,412] {processor.py:651} INFO - DAG(s) dict_keys(['example_time_delta_sensor_async']) retrieved from /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_time_delta_sensor_async.py
+[2022-05-14 01:50:12,463] {logging_mixin.py:115} INFO - [2022-05-14 01:50:12,459] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/job_builder_plugin.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/job_builder_plugin.py", line 2, in <module>
+    from airflow.plugins.job_builder.jobs.views.testdagload import testview
+ModuleNotFoundError: No module named 'airflow.plugins'
+[2022-05-14 01:50:12,483] {logging_mixin.py:115} INFO - [2022-05-14 01:50:12,480] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/jobs/dag_writer.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/jobs/dag_writer.py", line 6, in <module>
+    import git
+ModuleNotFoundError: No module named 'git'
+[2022-05-14 01:50:12,491] {logging_mixin.py:115} INFO - [2022-05-14 01:50:12,488] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/jobs/models.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/jobs/models.py", line 2, in <module>
+    from airflow.plugins.job_builder.jobs.dag_writer import DAGWriter
+ModuleNotFoundError: No module named 'airflow.plugins'
+[2022-05-14 01:50:12,511] {logging_mixin.py:115} INFO - [2022-05-14 01:50:12,508] {plugins_manager.py:264} ERROR - Failed to import plugin /opt/airflow/plugins/job_builder/jobs/views/testdagload.py
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.7/site-packages/airflow/plugins_manager.py", line 256, in load_plugins_from_plugin_directory
+    loader.exec_module(mod)
+  File "<frozen importlib._bootstrap_external>", line 728, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/airflow/plugins/job_builder/jobs/views/testdagload.py", line 4, in <module>
+    from airflow.plugins.job_builder.jobs.views.job import JobView
+ModuleNotFoundError: No module named 'airflow.plugins'
+[2022-05-14 01:50:12,566] {logging_mixin.py:115} INFO - [2022-05-14 01:50:12,566] {dag.py:2371} INFO - Sync 1 DAGs
+[2022-05-14 01:50:12,600] {logging_mixin.py:115} INFO - [2022-05-14 01:50:12,600] {dag.py:2919} INFO - Setting next_dagrun for example_time_delta_sensor_async to None, run_after=None
+[2022-05-14 01:50:12,630] {processor.py:161} INFO - Processing /home/airflow/.local/lib/python3.7/site-packages/airflow/example_dags/example_time_delta_sensor_async.py took 0.238 seconds
